@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext" rel="stylesheet">
+
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+/*
+      h1, h2, h3, p,
+      section {
+        width:700px;
+        margin: 0 auto;
+      } */
+
+      h1 {
+        margin-left: 15vw;
+        font-weight: 900;
+        font-size: 270px;
+        line-height: 250px;
+        /* opacity: 0.5; */
+        /* margin-right: 5vw; */
+      }
+      h1+h1{
+        margin-left: 55vw;
+      }
+      h1+h1+h1{
+        margin-left: 24vw;
+      }
+      h2 {
+        position: relative;
+        font-weight: 700;
+        margin-top: 50px;
+        font-size: 40px;
+        line-height: 1.2;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin-top: 30px;
+        line-height: 1.5;
+        font-size: 20px;
+      }
+
+      p + p {
+        margin-top: 16px;
+      }
+
+      header {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: center;
+        justify-content: space-between;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%), url(images/IMG_2054.JPG);
+        background-size: cover;
+        background-color: white;
+      }
+
+      header h1{
+        text-align: center;
+        color: black;
+      }
+
+      h2.starbucks {
+        margin-top: 200px;
+      }
+
+      div.starbucks {
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 100px;
+        height: 100px;
+        background-image: url(images/starbucks_logo.png);
+        background-size: contain;
+        background-position: center;
+        transform: rotate(180deg);
+      }
+
+      .yellowMarkup {
+        background-color: yellow;
+      }
+
+      div.tape1 {
+        position: absolute;
+        top: -30px;
+        left: 300px;
+        width: 218px;
+        height: 70px;
+        background-image: url(images/tape_1.png);
+        background-size: cover;
+        opacity: 0.5;
+        transform: rotate(30deg);
+      }
+
+      .black {
+        position: absolute;
+        /* top: 100px; */
+        left: 100px;
+        bottom: 100px;
+        width: 100px;
+        height: 100px;
+        background: white;
+      }
+
+      section {
+        position: relative;
+      }
+
+      .html {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        width: 350px;
+        height: 250px;
+        background-image: url(images/html.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+      }
+
+      section h2,
+      section p {
+        position: relative;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>СКЛЕ</h1>
+      <h1>РОЗ</h1>
+      <h1>НИК</h1>
+    </header>
+
+    <p>О том, как мы познакомились с группой, запоминали как кого зовут, придумали название группы, ходили в кино, изучали дизайн, Sketch, вёрстку, и что-то ещё...</p>
+
+    <h2 class="starbucks">
+      <div class="starbucks"></div>
+      Ремонт в Старбаксе и туса на газоне
+    </h2>
+
+    <p>Мы направились в Старбакс, бла бла бла, мы затусили на газоне, бла бла бла</p>
+
+    <h3>
+      <div class="test">Пометка на полях</div>
+      Знакомство
+    </h3>
+    <h3>Название группы</h3>
+
+    <h2>
+      <div class="tape1"></div>
+      Изучение кодинга
+    </h2>
+    <p><span class="yellowMarkup">HTML</span> (от англ. <span class="yellowMarkup">HyperText Markup Language</span> — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке <span class="yellowMarkup">HTML</span> (или <span class="yellowMarkup">XHTML</span>). Язык <span class="yellowMarkup">HTML</span> интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.</p>
+
+
+
+
+
+    <section>
+      <div class="html"></div>
+      <h2>Структура HTML-документа</h2>
+      <p>Язык HTML до 5-й версии определялся как приложение SGML (стандартного обобщённого языка разметки по стандарту ISO 8879). Спецификации HTML5 формулируются в терминах DOM (объектной модели документа).</p>
+    </section>
+
+  </body>
+</html>
